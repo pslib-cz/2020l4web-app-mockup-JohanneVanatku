@@ -1,4 +1,4 @@
-# hra SHOOTEM
+# Hra SHOOTEM
 - její inspirací je hra Space Invaders
 - na levé straně obrazovky se nachází zeď a hráčova děla společně s modrou čarou před děly, zprava přichází nepřátelské lodě
 -	děla nemohou mířit a lodě se drží jedné linky, hráč může střílet pouze z jednoho děla najednou, musí tedy měnit výběr děla
