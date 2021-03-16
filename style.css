@@ -3,3 +3,24 @@ body{
     background-repeat: repeat;
     background-color: black;
 }
+.wall{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100vh;
+    background-image: url(./img/wall.png);
+    background-position: top;
+    background-repeat: repeat;
+    background-size: contain;
+}
+.field{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
