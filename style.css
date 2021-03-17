@@ -54,3 +54,9 @@ body{
 .cannon:target{
     background-image: url(./img/cannonOn.png);
 }
+.border{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-right: #0000AA 3px solid;
+}
