@@ -24,3 +24,22 @@ body{
     grid-template-columns: repeat(24, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
+.scoreboard{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 50px;
+    background-image: url(./img/tableBIG.png);
+    background-repeat: no-repeat;
+}
+.hitpoints{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 350px;
+    height: 50px;
+    background-image: url(./img/tableSMALL.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
