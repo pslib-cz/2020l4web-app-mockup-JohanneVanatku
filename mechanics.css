@@ -1,0 +1,202 @@
+/* number of rows */
+.field{
+    grid-template-rows: repeat(2, 1fr);
+}
+/* HP visibility */
+.hpA{
+    display: visible;
+}
+.hpB{
+    display: visible;
+}
+.hpC{
+    display: visible;
+}
+.hpD{
+    display: none;
+}
+/* RED enemies */
+.REDdefA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDdefB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDdefC{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDdefD{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDtankA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDtankB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDracerA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.REDracerB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+/* YELLOW enemies */
+.YELdefA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELdefB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELdefC{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELdefD{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELtankA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELtankB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELracerA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELracerB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+/* CYAN enemies */
+.CYdefA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYdefB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYdefC{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYdefD{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYtankA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYtankB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYracerA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYracerB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+/* MAGENTA enemies */
+.MAGdefA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGdefB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGdefC{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGdefD{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGtankA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGtankB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGracerA{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGracerB{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+/* bosses */
+.REDboss{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.YELboss{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.CYboss{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}
+.MAGboss{
+    grid-column-start: 24;
+    grid-row-start: 1;
+    display: none;
+}

@@ -2,6 +2,7 @@ body{
     background-image: url(./img/BG.png);
     background-repeat: repeat;
     background-color: black;
+    overflow: hidden;
 }
 .wall{
     position: absolute;
@@ -22,7 +23,6 @@ body{
     width: 100%;
     display: grid;
     grid-template-columns: 100px repeat(23, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 .scoreboard{
     position: absolute;
@@ -87,4 +87,13 @@ body{
     grid-row-start: 1;
     grid-row-end: 5;
     border-right: #0000AA 3px solid;
+}
+.enemy{
+    width: 20px;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90%;
+    margin-top: 5%;
 }
