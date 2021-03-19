@@ -29,8 +29,8 @@
 - každý level má vlastní nepřátelé (vlastnosti zůstávají stejné, mění se pouze vzhled, to platí i pro bossy)
 
 ## Další vysvětlení mechanik:
--	může být vybráno pouze jedno dělo najednou, výběr funguje přes šipky na klávesnici, nebo kliknutím na dané dělo
--	střela se k nepříteli dostane okamžitě, není schoná nepřátelé prostřelit. Střílí se pomocí klávesy S nebo kliknutím na tlačítko „Shoot“
+-	může být vybráno pouze jedno dělo najednou, výběr funguje kliknutím na dané dělo
+-	střela se k nepříteli dostane okamžitě, není schoná nepřátelé prostřelit. Střílí se při kliknutí na dělo
 -	hráč přijde o jeden život, jakmile se nepřítel dostane za modrou čáru, nepřítel umírá
 -	pokud se za čáru dostane boss, hráč prohrává, i když má více než 1 život
 -	bossové mohou náhodně přejít na jakoukoliv řadu po každé trefené střele, zachovají si ale svůj postup k hráči
