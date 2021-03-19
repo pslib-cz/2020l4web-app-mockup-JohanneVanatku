@@ -17,9 +17,9 @@
 }
 /* RED enemies */
 .REDdefA{
-    grid-column-start: 24;
+    grid-column-start: 15;
     grid-row-start: 1;
-    display: none;
+    display: visible;
 }
 .REDdefB{
     grid-column-start: 24;
