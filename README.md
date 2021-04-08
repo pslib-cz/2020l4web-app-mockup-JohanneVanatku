@@ -1,39 +1,24 @@
 # Hra SHOOTEM
-- její inspirací je hra Space Invaders
-- na levé straně obrazovky se nachází zeď a hráčova děla společně s modrou čarou před děly, zprava přichází nepřátelské lodě
--	děla nemohou mířit a lodě se drží jedné linky, hráč může střílet pouze z jednoho děla najednou, musí tedy měnit výběr děla
--	hráč začíná se dvěmi děly a dvěmi řadami nepřátel. Po zabití určitého množství nepřátel se dostává do dalšího levelu a získává další dělo a řadu. Maximální počet je 5 řad
--	každý level je zakončen bossem, ten má více životů a po každé střele může změnit svou pozici v řadách.
--	cílem je dokončit všechny levely s co nejvyšším skóre. To je vypočítané podle počtu zabitých nepřátel a počtu nepřátel, kteří se dostali za čáru
--	hráč má 4 životy. Pokuď se nepřátelská loď dostane za modrou čáru, ztrácí 1 život. Životy se resetují po začátku každého nového levelu
+Hra SHOOTEM je inspirována množstvím starých her z 80. let a především hrou Space Invaders. Hráč ovládá několik děl na levé straně obrazovky a jeho úkolem je střílet na nepřátelé přicházející z pravé strany. Děla nemohou mířit a nepřátelé přicházejí v řadách, hráč tedy musí vybrat dělo ve správné řadě a střílet.
 
-### Možné další vlastnosti:
--	každý level má své vlastní nepřátelé (rozdělené podle barev – červená, žlutá, tyrkysová, magenta)
--	nepřátelé mohou mít různé varianty, například někteří by mohli být rychlejší (racers) a někteří by měli více životů (tanks)
+## Mechanika
+Na začátku hry má hráč 2 děla a dvě řady nepřátel. Nepřátelé přichází z pravé strany obrazovky a postupně se blíží. Pokud překročí modrou čáru napravo, zmizí a hráč přichází o jeden život.  Hráč si šipkami může zvolit dělo a tlačítkem „S“ z něj vystřelit, střela vždy zasáhne nejbližšího nepřítele v řadě.
+Hra má 4 levely. S každým levelem se zvýší počet řad (a i děl) a objeví se nový druh nepřátel. Na konci každého levelu je boss, který má více životů a po každém zásahu má šanci změnit svou pozici v řadách.
+Hráč má 4 životy. Pokud se nepřítel dostane za modrou čáru, přichází o 1 život. Pokud se boss dostane za modrou čáru, hráč umírá, nehledě na počet životů. Na každém novém levelu se vyléčí na plný počet životů.
+Hlavním cílem hry je získat si co nejvyšší skóre. To je vypočítáváno počtem zabitých nepřátel a počtem ztracených životů.
 
-## Základní hra:
-- má 4 levely
-- hráč začíná se 2 děly a 2 řadami nepřátel
-- po každém levelu získává další dělo a řadu, maximum je tedy 5 řad (1. level jsou dvě řady, 2. level jsou tři řady... 4. level je pět řad)
-- hráč má 4 životy; ztrácí 1 život, pokud se nepřítel dostane za modrou čáru (což také automaticky nepřítele zabije); na začátku každého levelu se životy resetují
-- pokud se boss dostane za modrou čáru, hráč prohrává, i když má plný počet životů
-- nepřátelé mají 1 život
-- boss má 4 životy
-- po každém zásahu má boss možnost náhodně změnit svou pozici v řadách (tedy pouze vetikální pozici, jeho horizontální pozice/postup zůstává stejná)
-- hraje se na skóre
+## Druhy nepřítel:
+Každý level má vlastní sadu nepřátel a každá sada má normálního nepřítele (def), racera, tank a bosse.
+Normální nepřítel - pohybuje se normální rychlostí, má 1 HP
+Racer - pohybuje se rychleji, než normální nepřítel, má 1 HP
+Tank - pohybuje se normální rychlostí, má 2 HP
+Boss - objeví se na konci levelu, žádný jiný nepřítel není přítomen při bossfightu, má 4 až 8 HP (podle levelu), po každém zásahu má náhodnou šanci na změnu řady.
 
-## Rozšířená hra:
-- existují další dva typy nepřátel: racers a tanks
-- racers se pohybují dvakrát rychleji, než normální nepřítel a mají 1 HP
-- tanks mají 2 HP a pohybují se stejnou rychlostí
-- každý level má vlastní nepřátelé (vlastnosti zůstávají stejné, mění se pouze vzhled, to platí i pro bossy)
+## Levely:
+Hra má 4 levely. První level má dvě řady nepřátel a dvě děla, druhá tři.. Poslední 4. level má 5 řad. Každý level má vlastní sadu nepřátel a vlastní barvu (červená > žlutá > tyrkysová > magenta).  Aby hráč mohl postoupit do dalšího levelu, musí zabít určitý počet nepřátel (20 > 25 > 30 > 35) a bosse daného levelu. Momentální postup se zobrazuje na panelu v pravém horním rohu.  Při každém novém levelu se hráč vrátí na plný počet životů. Po posledním levelu se mu ukáže obrazovka s jeho skóre.
 
-## Další vysvětlení mechanik:
--	může být vybráno pouze jedno dělo najednou, výběr funguje kliknutím na dané dělo
--	střela se k nepříteli dostane okamžitě, není schoná nepřátelé prostřelit. Střílí se při kliknutí na dělo
--	hráč přijde o jeden život, jakmile se nepřítel dostane za modrou čáru, nepřítel umírá
--	pokud se za čáru dostane boss, hráč prohrává, i když má více než 1 život
--	bossové mohou náhodně přejít na jakoukoliv řadu po každé trefené střele, zachovají si ale svůj postup k hráči
--	hráč získává 20 skóre za každého zabitého nepřítele a 50 za bosse. Za každý ztracený život ztrátí 25 skóre
-- racers mohou v řadě předběhnout ostatní nepřátele
+## Výpočet skóre:
+Za každého poraženého nepřítele hráč získává 50 bodů, za každého bosse 150 bodů. Za každý ztracený život ztrácí 100 bodů. Momentální skóre se zobrazuje na panelu v pravém horním rohu obrazovky a poté na obrazovce "You win!" a "Game over".
 
+## Grafika a animace:
+Všechny animace hrají v 10fps a jsou očíslovány v pořadí. Hra má grafiku ve velmi malám rozlišení a pouze 16 barev z inspirace ze staré limitované grafiky. Hra obsahuje i sprite pro dělo, když střílí, sprite pro prázdný HP slot a font 8bit operator.
