@@ -25,3 +25,6 @@ Všechny animace hrají v 10fps a jsou očíslovány v pořadí. Hra má grafiku
 ### Barvy:
 Barvevná paleta pochází z grafické karty EGA
 #ffffff bílá, #aaaaaa světle šedá, #555555 tmavě šedá, #000000 černá, #ff55ff růžová/světlá magenta, #aa00aa tmavá magenta, #5555ff modrá, #0000aa tmavě modrá, #55ffff tyrkysová, #00aaaa tmavě tyrkysová, #55ff55 světle zelená, #00aa00 tmavě zelená, #ffff55 žlutá, #aa5500 hnědá, #ff5555 světle červená , #aa0000 tmavě červená
+
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
