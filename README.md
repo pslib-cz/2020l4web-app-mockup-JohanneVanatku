@@ -26,26 +26,26 @@ Všechny animace hrají v 10fps a jsou očíslovány v pořadí. Hra má grafiku
 Barvevná paleta pochází z grafické karty EGA  
 #ffffff bílá, #aaaaaa světle šedá, #555555 tmavě šedá, #000000 černá, #ff55ff růžová/světlá magenta, #aa00aa tmavá magenta, #5555ff modrá, #0000aa tmavě modrá, #55ffff tyrkysová, #00aaaa tmavě tyrkysová, #55ff55 světle zelená, #00aa00 tmavě zelená, #ffff55 žlutá, #aa5500 hnědá, #ff5555 světle červená , #aa0000 tmavě červená
 
-Úvodní obrazovka:
+Úvodní obrazovka:  
 ![Úvodní obrazovka](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/TitleScreenMenuEXA.png)
 
-Screenshot ze hry:
+Screenshot ze hry:  
 ![Screenshot ze hry](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/screen.png)
 
-Výherní obrazovka:
+Výherní obrazovka:  
 ![Výherní obrazovka](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/ScoreScreenEXA.png)
 
-Game over:
+Game over:  
 ![Game over](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/game%20overEXA.png)
 
-Rozložení děl:
+Rozložení děl:  
 ![Rozložení děl](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/cannons.png)
 
-Nepřátelé:
+Nepřátelé:  
 ![Nepřátelé](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/nep%C5%99%C3%A1tel%C3%A9.png)
 
 
-Ukázky animací:
+Ukázky animací:  
 ![Boss 1](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/boss1ANIM.gif)
 ![Boss 2](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/boss2ANIM.gif)
 ![exploze](https://github.com/pslib-cz/2020l4web-app-mockup-JohanneVanatku/blob/master/uk%C3%A1zky/exploANIM.gif)
