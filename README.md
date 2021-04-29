@@ -12,14 +12,14 @@ Každý level má vlastní sadu nepřátel a každá sada má normálního nepř
 - Normální nepřítel - pohybuje se normální rychlostí, má 1 HP
 - Racer - pohybuje se dvakrát rychleji, než normální nepřítel, má 1 HP
 - Tank - pohybuje se normální rychlostí, má 2 HP
-- Boss - objeví se na konci levelu, žádný jiný nepřítel není přítomen při bossfightu, má 4 až 8 HP (podle levelu), po každém zásahu má náhodnou šanci na změnu řady.
+- Boss - objeví se na konci levelu, žádný jiný nepřítel není přítomen při bossfightu, má 4 až 7 HP (podle levelu), po každém zásahu má náhodnou šanci na změnu řady.
 
 ## Levely:
 Hra má 4 levely. První level má dvě řady nepřátel a dvě děla, druhá tři.. Poslední 4. level má 5 řad. Každý level má vlastní sadu nepřátel a vlastní barvu (červená > žlutá > tyrkysová > magenta).  Aby hráč mohl postoupit do dalšího levelu, musí zabít určitý počet nepřátel (20 > 25 > 30 > 35) a bosse daného levelu. Momentální postup se zobrazuje na panelu v pravém horním rohu.  Při každém novém levelu se hráč vrátí na plný počet životů. Po posledním levelu se mu ukáže obrazovka s jeho skóre.
 
 ## Levely - Nepřítelé:
 Množství určitých druhů nepřátel je pro každý level dán v poměru 3:1:1 (normální:racer:tank). První level má tedy 12 normálních nepřátel, 4 racery a 4 tanky, druhý 15 norm., 5 racerů a 5 tanků atd. Nepřátelé by měli být náhodní. Nový nepřítel by se měl objevit vždy 1 - 2 sekundami).
-Rychlost nepřátel je nejprve nutné otestovat. 
+Normálnímu nepříteli a tanku by překročení obrazovky mělo trvat zhruba 10 sekund, racerovi zhruba 5. Bossovi prvního levelu by to mělo zabrat téže 13 sekund, ale v dalších levelech by se jeho čas měl prodlužovat (16 > 21 > 25). Toto je ale jen odhad a rychlost nepřátel je možné po testování upravit.
 
 ## Výpočet skóre:
 Za každého poraženého nepřítele hráč získává 50 bodů, za každého bosse 150 bodů. Za každý ztracený život ztrácí 100 bodů. Momentální skóre se zobrazuje na panelu v pravém horním rohu obrazovky a poté na obrazovce "You win!" a "Game over".
